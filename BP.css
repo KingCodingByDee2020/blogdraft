@@ -1,0 +1,170 @@
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+  .container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+header{
+  color: #9f9c9c;
+  padding: 20px 0;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+header nav ul {
+  font-family: 'Sedgwick Ave Display', cursive;
+  display: flex;
+  list-style-type: none;
+}
+
+header nav li {
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+header nav li:hover {
+  box-shadow: 5px 5px 5px 5px #51b;
+background-color: #9f9c9c;
+justify-content: center;
+opacity: 0.6;
+}
+
+header button {
+  max-height: 30px;
+  margin-top: 30px;
+  border: none;
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 1.25rem;
+  background-color: #51bb7b;
+  background-position: center;
+  font-family: 'Sedgwick Ave Display', cursive;
+
+}
+
+header h1 {
+  font-family: 'Tilt Prism', cursive;
+  font-weight: 600;
+
+}
+
+.cards {
+  max-width: 900px;
+  max-height: min-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  padding: 30px;
+  margin: auto;
+  row-gap: 60px;
+  box-sizing: content-box;
+}
+  
+.card {
+  height: fit-content;
+  max-width: 400px;
+  border-radius: 30px;
+  padding: 10px;
+  text-align: center;
+  justify-content: space-around;
+  box-sizing: border-box;
+  width: 100%;
+  border: solid #51bb7b 5px;
+  padding: 5px;
+  }
+  
+
+article:hover {
+  box-shadow: 5px 5px 5px 5px #51b;
+  opacity: 0.6;
+}
+
+  .avatar {
+  vertical-align: middle;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  }
+  
+  .card__content {
+  font-family: 'Sedgwick Ave Display', cursive;
+  display: flexbox;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-width: auto;   
+  
+}
+  
+img {
+  height: 200px;
+  width: 200px;
+  padding: 30px;
+  border-radius: 1.5em;
+  margin-top: 20px;
+}
+
+  .card__link {
+  margin-top: auto; 
+  }
+
+  p.card__link:hover {
+    opacity: 0.5;
+    }
+    
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  }
+  
+  .fa:hover {
+  opacity: 0.5;
+  }
+  
+  
+  .fa-facebook {
+  background: #3B5998;
+  color: white;
+  }
+  
+  .fa-twitter {
+  background: #55ACEE;
+  color: white;
+  }
+
+
+
+   section p {
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    text-align: center;
+      color: #51b;
+      font-weight: 600;
+      font-style: italic;
+      text-shadow: #51bb7b;
+      font-family: 'Rubik Wet Paint', cursive;
+    }
