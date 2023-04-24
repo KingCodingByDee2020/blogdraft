@@ -116,13 +116,12 @@ body p {
 border: solid 8px #51bb7b;
 }
   footer{
-  font-family: 'Bruno Ace SC', cursive;
+      font-family: 'Bruno Ace SC', cursive;
       text-align: center;
       color: #51b;
       font-weight: 600;
       font-style: italic;
       text-shadow: #51bb7b;
-      font-family: 'Rubik Wet Paint', cursive;    
     }
 
     .hover:hover {
