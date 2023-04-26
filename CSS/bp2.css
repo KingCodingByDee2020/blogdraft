@@ -1,0 +1,149 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+header{
+  color: #9f9c9c;
+  padding: 20px 0;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+header nav ul {
+  font-family: 'Bruno Ace SC', cursive;
+  display: flex;
+  list-style-type: none;
+}
+
+header nav li:hover {
+  box-shadow: 5px 5px 5px 5px #51b;
+background-color: #9f9c9c;
+justify-content: center;
+opacity: 0.6;
+}
+
+header nav li {
+  margin-right: 30px;
+  margin-top: 20px;
+  color: #000;
+}
+
+header button {
+  max-height: 30px;
+  margin-top: 30px;
+  border: none;
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 1.25rem;
+  background-color: #51bb7b;
+  background-position: center;
+  font-family: 'Bruno Ace SC', cursive;
+}
+
+header h1 {
+  font-family: 'Tilt Prism', cursive;
+  font-weight: 600;
+}
+
+    
+  .card {
+    display: grid;
+    height: fit-content;
+    max-width: 600px;
+    border-radius: 30px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 5px solid black;
+    margin: auto;
+    box-shadow: 5px 5px 5px 5px #51b;
+
+    }
+  
+    .avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    }
+    
+    .card__content {
+      font-family: 'Bruno Ace SC', cursive;
+      display: flexbox;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-width: auto;   
+  }
+    
+    .card__link {
+    margin-top: auto; 
+    display: flex;
+    max-width: 300px;
+    }
+
+    .posts {
+      font-family: 'Bruno Ace SC', cursive;
+      align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-width: auto; 
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    }
+  
+
+  .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    }
+    
+    .fa:hover {
+    opacity: 0.7;
+    }
+    
+    
+    .fa-facebook {
+    background: #3B5998;
+    color: white;
+    }
+
+    .fa-linkedin {
+      background: #55ACEE;
+      color: #fff;
+    }
+    
+    .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    }
+  
+     section p {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+  footer{
+    font-family: 'Bruno Ace SC', cursive;
+    text-align: center;
+      color: #51b;
+      font-weight: 600;
+      font-style: italic;
+      text-shadow: #51bb7b;
+    }

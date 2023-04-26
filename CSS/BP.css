@@ -1,10 +1,4 @@
-@media only screen and (max-width: 768px) {
-  [class*="col-"] {
-    width: 100%;
-  }
-}
-
-  .container {
+.container {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 40px;
@@ -24,14 +18,9 @@ header{
 }
 
 header nav ul {
-  font-family: 'Sedgwick Ave Display', cursive;
+  font-family: 'Bruno Ace SC', cursive;
   display: flex;
   list-style-type: none;
-}
-
-header nav li {
-  margin-right: 30px;
-  margin-top: 20px;
 }
 
 header nav li:hover {
@@ -39,6 +28,12 @@ header nav li:hover {
 background-color: #9f9c9c;
 justify-content: center;
 opacity: 0.6;
+}
+
+header nav li {
+  margin-right: 30px;
+  margin-top: 20px;
+  color: #000;
 }
 
 header button {
@@ -51,14 +46,12 @@ header button {
   border-radius: 1.25rem;
   background-color: #51bb7b;
   background-position: center;
-  font-family: 'Sedgwick Ave Display', cursive;
-
+  font-family: 'Bruno Ace SC', cursive;
 }
 
 header h1 {
   font-family: 'Tilt Prism', cursive;
   font-weight: 600;
-
 }
 
 .cards {
@@ -69,9 +62,9 @@ header h1 {
   flex-wrap: wrap;
   align-content: center;
   justify-content: space-evenly;
-  padding: 30px;
+  padding: 10px;
   margin: auto;
-  row-gap: 60px;
+  row-gap: 30px;
   box-sizing: content-box;
 }
   
@@ -96,14 +89,14 @@ article:hover {
 
   .avatar {
   vertical-align: middle;
-  width: 90px;
-  height: 90px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   }
   
   .card__content {
-  font-family: 'Sedgwick Ave Display', cursive;
-  display: flexbox;
+    font-family: 'Bruno Ace SC', cursive;
+    display: flexbox;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -115,9 +108,9 @@ article:hover {
 img {
   height: 200px;
   width: 200px;
-  padding: 30px;
+  padding: 5px;
   border-radius: 1.5em;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
   .card__link {
@@ -130,9 +123,9 @@ img {
     
 
 .fa {
-  padding: 20px;
+  padding: 10px;
   font-size: 30px;
-  width: 30px;
+  width: 10px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
@@ -153,9 +146,14 @@ img {
   color: white;
   }
 
+  .fa-linkedin {
+    background: #55ACEE;
+    color: #fff;
+  }
 
 
    section p {
+    display: flex;
     align-items: center;
     justify-content: center;
   }
