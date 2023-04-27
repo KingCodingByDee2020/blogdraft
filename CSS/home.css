@@ -3,7 +3,7 @@ body, html {
   }
   
   .hero-image {
-    background-image: radial-gradient(#51b, #51bb7b), url("photographer.jpg");
+    background-image: url("/Images/andrew-neel-cckf4TsHAuw-unsplash.jpg");
   
     height: 75%;
   
@@ -19,9 +19,10 @@ body, html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
-    font-size: x-large;
+    color: #51b;
+    font-size: 45px;
     text-align: center;
+    text-decoration: italic bold;
   }
   
   .hero-font {

@@ -1,6 +1,7 @@
 @import "/CSS/header.css";
 @import "/CSS/footer.css";
 @import "/CSS/sharelinks.css";
+
     
   .card {
     display: grid;
@@ -58,6 +59,9 @@
       margin-top: 10px;
     }
     
+    figcaption{
+      font-size: 12px;
+    }
 
      section p {
       display: flex;

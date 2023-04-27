@@ -2,6 +2,7 @@
 @import "/CSS/footer.css";
 @import "/CSS/sharelinks.css";
 
+
 .cards {
   max-width: 900px;
   max-height: min-content;
@@ -53,6 +54,10 @@ article:hover {
   
 }
   
+figcaption{
+  font-size: 12px;
+}
+
 img {
   height: 200px;
   width: 200px;
