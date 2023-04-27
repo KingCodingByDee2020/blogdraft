@@ -1,58 +1,4 @@
-.container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 0 40px;
-  display: flex;
-  flex-direction: column;
-  background-color: #fff;
-}
-
-header{
-  color: #9f9c9c;
-  padding: 20px 0;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-header nav ul {
-  font-family: 'Bruno Ace SC', cursive;
-  display: flex;
-  list-style-type: none;
-}
-
-header nav li:hover {
-  box-shadow: 5px 5px 5px 5px #51b;
-background-color: #9f9c9c;
-justify-content: center;
-opacity: 0.6;
-}
-
-header nav li {
-  margin-right: 30px;
-  margin-top: 20px;
-  color: #000;
-}
-
-header button {
-  max-height: 30px;
-  margin-top: 30px;
-  border: none;
-  color: #000;
-  font-weight: 600;
-  cursor: pointer;
-  border-radius: 1.25rem;
-  background-color: #51bb7b;
-  background-position: center;
-  font-family: 'Bruno Ace SC', cursive;
-}
-
-header h1 {
-  font-family: 'Tilt Prism', cursive;
-  font-weight: 600;
-}
+@import "header.css footer.css";
 
     
   .card {
@@ -139,11 +85,3 @@ header h1 {
       justify-content: center;
     }
   
-  footer{
-    font-family: 'Bruno Ace SC', cursive;
-    text-align: center;
-      color: #51b;
-      font-weight: 600;
-      font-style: italic;
-      text-shadow: #51bb7b;
-    }

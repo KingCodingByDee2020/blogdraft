@@ -1,0 +1,43 @@
+body, html {
+    height: 100%;
+  }
+  
+  .hero-image {
+    background-image: radial-gradient(#51b, #51bb7b), url("photographer.jpg");
+  
+    height: 75%;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    font-family: 'Bruno Ace SC', cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: x-large;
+  }
+  
+  .hero-font {
+  font-family: 'Bruno Ace SC', cursive;
+  font-weight: 1600;
+  font: 45px;
+  }
+  
+  
+  .bb {
+    border: none;
+    color: #51b;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 1.25rem;
+    background-color: #51bb7b;
+    background-position: center;
+  }
+  
+  
