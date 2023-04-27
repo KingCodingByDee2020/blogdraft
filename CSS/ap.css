@@ -1,4 +1,6 @@
-@import "header.css footer.css";
+@import "/CSS/header.css";
+@import "/CSS/footer.css";
+
 
 .about {
   font-family: 'Bruno Ace SC', cursive;

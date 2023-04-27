@@ -1,7 +1,12 @@
-@import "header.css footer.css";
+@import "/CSS/header.css";
+@import "/CSS/footer.css";
+
+header {
+  width: 900px;
+}
 
 form {
-  background-image: radial-gradient(#51b, #51bb7b), url("photographer.jpg");
+  background-image: radial-gradient(#51b, #51bb7b), url("/photographer.jpg");
 }
 
 .signupFrm {
