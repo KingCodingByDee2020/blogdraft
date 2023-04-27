@@ -2,70 +2,70 @@
 @import "/CSS/footer.css";
 @import "/CSS/sharelinks.css";
 
-    
+  
   .card {
-    display: grid;
-    height: fit-content;
-    max-width: 600px;
-    border-radius: 30px;
-    padding: 10px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    border: 5px solid black;
-    margin: auto;
-    box-shadow: 5px 5px 5px 5px #51b;
+  display: grid;
+  height: fit-content;
+  max-width: 600px;
+  border-radius: 30px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 5px solid black;
+  margin: auto;
+  box-shadow: 5px 5px 5px 5px #51b;
 
-    }
-  
-    .avatar {
-    vertical-align: middle;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    }
-    
-    .card__content {
-      font-family: 'Bruno Ace SC', cursive;
-      display: flexbox;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    border-width: auto;   
   }
-    
-    .card__link {
-    margin-top: auto; 
-    display: flex;
-    max-width: 300px;
-    }
-
-    .posts {
-      font-family: 'Bruno Ace SC', cursive;
-      align-items: center;
-    justify-content: center;
-    text-align: center;
-    border-width: auto; 
-    margin-top: 20px; 
-    margin-bottom: 20px;
-    }
   
-    img {
-      height: 200px;
-      width: 200px;
-      padding: 5px;
-      border-radius: 1.5em;
-      margin-top: 10px;
-    }
-    
-    figcaption{
-      font-size: 12px;
-    }
+  .avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  }
+  
+  .card__content {
+    font-family: 'Bruno Ace SC', cursive;
+    display: flexbox;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-width: auto;   
+  }
+  
+  .card__link {
+  margin-top: auto; 
+  display: flex;
+  max-width: 300px;
+  }
 
-     section p {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
+  .posts {
+    font-family: 'Bruno Ace SC', cursive;
+    align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-width: auto; 
+  margin-top: 20px; 
+  margin-bottom: 20px;
+  }
+  
+  img {
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+    border-radius: 1.5em;
+    margin-top: 10px;
+  }
+  
+  figcaption{
+    font-size: 12px;
+  }
+
+   section p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   

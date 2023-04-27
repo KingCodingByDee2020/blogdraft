@@ -1,28 +1,28 @@
 body, html {
-    height: 100%;
+  height: 100%;
   }
   
   .hero-image {
-    background-image: url("/Images/andrew-neel-cckf4TsHAuw-unsplash.jpg");
+  background-image: url("/Images/andrew-neel-cckf4TsHAuw-unsplash.jpg");
   
-    height: 75%;
+  height: 75%;
   
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   }
   
   .hero-text {
-    font-family: 'Bruno Ace SC', cursive;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #51b;
-    font-size: 45px;
-    text-align: center;
-    text-decoration: italic bold;
+  font-family: 'Bruno Ace SC', cursive;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #51b;
+  font-size: 45px;
+  text-align: center;
+  text-decoration: italic bold;
   }
   
   .hero-font {
@@ -33,13 +33,13 @@ body, html {
   
   
   .bb {
-    border: none;
-    color: #51b;
-    font-weight: 800;
-    cursor: pointer;
-    border-radius: 1.25rem;
-    background-color: #51bb7b;
-    background-position: center;
+  border: none;
+  color: #51b;
+  font-weight: 800;
+  cursor: pointer;
+  border-radius: 1.25rem;
+  background-color: #51bb7b;
+  background-position: center;
   }
   
   

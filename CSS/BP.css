@@ -44,8 +44,8 @@ article:hover {
   }
   
   .card__content {
-    font-family: 'Bruno Ace SC', cursive;
-    display: flexbox;
+  font-family: 'Bruno Ace SC', cursive;
+  display: flexbox;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -71,12 +71,12 @@ img {
   }
 
   p.card__link:hover {
-    opacity: 0.5;
-    }
-    
+  opacity: 0.5;
+  }
+  
    section p {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   }
 

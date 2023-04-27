@@ -65,8 +65,8 @@ body p {
 border: solid 8px #51bb7b;
 }
 
-    .hover:hover {
-      box-shadow: 5px 5px 5px 5px #51b;
-      background-color: #9f9c9c;
-      justify-content: center;
-      }
+  .hover:hover {
+    box-shadow: 5px 5px 5px 5px #51b;
+    background-color: #9f9c9c;
+    justify-content: center;
+    }
